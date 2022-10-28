@@ -1,0 +1,41 @@
+Configurar 
+git config --global user.name "user"
+git config --global user.email ejemplo.com
+git config --global core.editor "code --wait" //Tener instalado vscode
+git config --global -e
+59:44
+Ver los directorios -> ls
+Ver los directorios ocultos -> ls -a
+Crear nuevos direc -> mkdir nombredir
+Ver ubicacion -> pwd
+Cambiar de dir -> cd nombredir
+Regresar de directorio -> cd ..
+Eliminar arvhivos -> rm nombreArvhivo.txt
+Cambiar nombre de archivo -> mv nombreori.txt nombrenuevo.txt
+Mostrar contenido de archivo -> cat nombreArchivo
+
+Inicializar commit -> git init
+Ver estado del proyecto -> git status
+Ver estado del proyecto listado -> git status -s
+Agregar cambios o archivos -> git add . git add .txt git add nombrearvhivo.txt
+Borra arvhivos y agregar .add -> git rm nombrear.txt
+Restaurar archivos eliminados -> git restore nombrearch.txt
+Cambiar nombre de archivo y agregar .add ->git mv nombreori.txt nombrenuevo.txt
+Agregar al proyecto archivo .gitignore y escribir dentro los archivos a ignorar
+Observar cambios dispuestos a agreagr en el arvhivo -> git diff
+Mostrar historial de los commits hechos -> git log --oneline
+Comprometer cambios -> git commit -m "-enesimo commit"// git commit -> se abre el editor de txt
+
+Verificar en qué rama estamos -> git branch (salir con Q)
+Crear y cambiar a nueva rama -> git checkout -b nombreDeLaRama
+Cambiar de rama -> git checkout ramamain
+Llevar los cambios de ramaB a ramamain -> git merge ramaB (estando en rammain)
+
+Agregar remoto -> git remote add origin https://
+Hacer push de otra rama que no sea main push -u origin ramaB
+
+
+
+
+
+
