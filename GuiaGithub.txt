@@ -34,6 +34,8 @@ Llevar los cambios de ramaB a ramamain -> git merge ramaB (estando en rammain)
 Agregar remoto -> git remote add origin https://
 Hacer push de otra rama que no sea main push -u origin ramaB
 
+problemas al hacer push -> git pull --rebase origin main
+				git push origin main 
 
 
 
